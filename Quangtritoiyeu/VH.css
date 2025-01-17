@@ -1,0 +1,102 @@
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: blanchedalmond;
+  padding: 10px;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 0px;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+.menu ul li a:hover {
+  color: burlywood;
+  background-color: black;
+}
+.menu ul li.VH a {
+  color: burlywood;
+  background-color: black;
+}
+.menu ul li.aboutus a {
+  margin-right: 35px;
+}
+
+/* container */
+.container {
+  display: flex;
+  background-color: rgb(255, 244, 227);
+  font-family: sans-serif;
+}
+
+.main {
+  background-color: bisque;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 170px;
+}
+
+.main h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: serif;
+  letter-spacing: -3px;
+}
+
+.main h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.main p {
+  text-indent: 20px;
+  line-height: 1.5;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.main :nth-child(2),
+.main :last-child {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* fooder */
+footer {
+  background-color: rgb(20, 2, 2);
+}
+
+footer p {
+  padding: 30px;
+  color: bisque;
+  font-size: 18px;
+  margin-left: 70px;
+}
